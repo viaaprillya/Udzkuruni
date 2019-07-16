@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".daftarHarakat">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/halaman_harakat"
+        android:contentDescription="@string/belajar_harakat"/>
+
+    <ImageButton
+        android:id="@+id/fathah"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/fathah"
+        android:layout_toEndOf="@id/kasrah"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/fathah"/>
+
+    <ImageButton
+        android:id="@+id/kasrah"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/kasrah"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/kasrah"/>
+
+    <ImageButton
+        android:id="@+id/dommah"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/dommah"
+        android:layout_toStartOf="@id/kasrah"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:contentDescription="@string/dommah"/>
+
+    <ImageButton
+        android:id="@+id/fathahtain"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/fathahtain"
+        android:layout_toEndOf="@id/kasrahtain"
+        android:layout_below="@id/fathah"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/fathahtain"
+        />
+
+    <ImageButton
+        android:id="@+id/kasrahtain"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/kasrahtain"
+        android:layout_below="@id/kasrah"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/kasrahtain"/>
+
+    <ImageButton
+        android:id="@+id/dommahtain"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/dhommahtain"
+        android:layout_toStartOf="@id/kasrahtain"
+        android:layout_below="@id/dommah"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:contentDescription="@string/dommahtain"/>
+
+    <ImageButton
+        android:id="@+id/sukun"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/sukun"
+        android:layout_toEndOf="@id/tasydid"
+        android:layout_below="@id/fathahtain"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/sukun"/>
+
+    <ImageButton
+        android:id="@+id/tasydid"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/tasydid"
+        android:layout_below="@id/kasrahtain"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/sukun"/>
+
+    <ImageButton
+        android:id="@+id/madfathah"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/madfathah"
+        android:layout_toStartOf="@id/tasydid"
+        android:layout_below="@id/dommahtain"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageButton
+        android:id="@+id/enamketukan"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/enamketukan"
+        android:layout_below="@id/sukun"
+        android:layout_centerHorizontal="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+</RelativeLayout>

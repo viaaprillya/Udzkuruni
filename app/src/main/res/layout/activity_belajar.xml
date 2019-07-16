@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/belajar_bg"
+    tools:context=".Belajar">
+
+    <ImageButton
+        android:id="@+id/belajarhuruf"
+        android:layout_above="@id/belajarharakat"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/tombolhuruf"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="170dp"
+        android:contentDescription="@string/belajar_huruf_hijaiyah"/>
+
+    <ImageButton
+        android:id="@+id/belajarharakat"
+        android:layout_width="300dp"
+        android:layout_height="170dp"
+        android:background="@drawable/tombolharakat"
+        android:layout_above="@id/panduan"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/belajar_harakat"
+        />
+
+    <ImageButton
+        android:id="@+id/panduan"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/petunjukbelajar"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="170dp"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/panduan_belajar"/>
+
+</RelativeLayout>

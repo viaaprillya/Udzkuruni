@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.kelompok.udzkuruni">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".Tentang"></activity>
+        <activity android:name=".panduanBelajar" />
+        <activity android:name=".Fathahtain" />
+        <activity android:name=".Huruf_Fathah" />
+        <activity android:name=".Dommah" />
+        <activity android:name=".Quran" />
+        <activity android:name=".Kuis" />
+        <activity android:name=".Kasrah" />
+        <activity android:name=".Fathah" />
+        <activity android:name=".Ya" />
+        <activity android:name=".Hamzah" />
+        <activity android:name=".LamAlif" />
+        <activity android:name=".Hak" />
+        <activity android:name=".Wau" />
+        <activity android:name=".Nun" />
+        <activity android:name=".Mim" />
+        <activity android:name=".Lam" />
+        <activity android:name=".Kaf" />
+        <activity android:name=".Kof" />
+        <activity android:name=".Fak" />
+        <activity android:name=".Goin" />
+        <activity android:name=".Ain" />
+        <activity android:name=".Do" />
+        <activity android:name=".To" />
+        <activity android:name=".Dlod" />
+        <activity android:name=".Sod" />
+        <activity android:name=".Syin" />
+        <activity android:name=".Sin" />
+        <activity android:name=".Dza" />
+        <activity android:name=".Ro" />
+        <activity android:name=".Dzal" />
+        <activity android:name=".Dal" />
+        <activity android:name=".Kho" />
+        <activity android:name=".Kha" />
+        <activity android:name=".Jim" />
+        <activity android:name=".Tsa" />
+        <activity android:name=".Ta" />
+        <activity android:name=".Ba" />
+        <activity android:name=".Alif" />
+        <activity android:name=".daftarHarakat" />
+        <activity android:name=".daftarHuruf" />
+        <activity android:name=".Belajar" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    tools:context=".Tentang">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/colorPrimary"
+        android:id="@+id/head"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:text="@string/tentang_kami"
+        android:textSize="35sp"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="216.3dp"
+        android:layout_below="@id/head"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/logoudzkuruni"/>
+
+    <TextView
+        android:id="@+id/versi"
+        android:layout_below="@id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/versi_1_0"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/deskripsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/versi"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:text="@string/aplikasi_belajar_hijaiyah_braille_untuk_tunanetra_berbasis_suara_dan_getaran_tampilan_aplikasi_ini_telah_disesuaikan_bagi_penyandang_tunanetra_agar_lebih_mudah_untuk_dioperasikan_fitur_yang_terdapat_dalam_aplikasi_ini_yaitu_fitur_belajar_untuk_mempelajari_pola_braille_huruf_dan_harakat_hijaiyah_fitur_kuis_untuk_menguji_kemampuan_pengguna_serta_fitur_al_qur_an"/>
+
+    <TextView
+        android:id="@+id/creator"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/deskripsi"
+        android:layout_margin="5dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/creator"/>
+
+    <TextView
+        android:id="@+id/dina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/creator"
+        android:layout_centerHorizontal="true"
+        android:text="@string/ishardina_cholifatul_hidayati"/>
+
+    <TextView
+        android:id="@+id/ratih"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dina"
+        android:layout_centerHorizontal="true"
+        android:text="@string/novinda_nalaratih"/>
+
+    <TextView
+        android:id="@+id/via"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ratih"
+        android:layout_centerHorizontal="true"
+        android:text="@string/via_aprillya"/>
+
+    <TextView
+        android:id="@+id/developer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/via"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:text="@string/developer"/>
+
+    <TextView
+        android:id="@+id/via_dev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/developer"
+        android:layout_centerHorizontal="true"
+        android:text="@string/via_aprillya"/>
+
+    <TextView
+        android:id="@+id/graphic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/via_dev"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:text="@string/gd"/>
+
+    <TextView
+        android:id="@+id/ratih_gd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/graphic"
+        android:layout_centerHorizontal="true"
+        android:text="@string/novinda_nalaratih"/>
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/ratih_gd"
+        android:text="@string/udzkuruni_gmail_com"
+        android:layout_toEndOf="@id/emailgb"/>
+
+    <TextView
+        android:id="@+id/website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email"
+        android:layout_marginTop="10dp"
+        android:text="@string/udzkuruni_wordpress_com"
+        android:layout_toEndOf="@id/websitegb"/>
+
+    <TextView
+        android:id="@+id/ig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/website"
+        android:layout_marginTop="10dp"
+        android:text="@string/udzkuruni_apps"
+        android:layout_toEndOf="@id/iggb"/>
+
+    <TextView
+        android:id="@+id/yt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ig"
+        android:layout_marginTop="10dp"
+        android:text="@string/udzkuruni"
+        android:layout_toEndOf="@id/ytgb"/>
+
+    <ImageView
+        android:id="@+id/emailgb"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="25dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/ratih_gd"
+        android:background="@drawable/email" />
+
+    <ImageView
+        android:id="@+id/websitegb"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="25dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/emailgb"
+        android:background="@drawable/web"/>
+
+    <ImageView
+        android:id="@+id/iggb"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="25dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/website"
+        android:background="@drawable/ig"/>
+
+    <ImageView
+        android:id="@+id/ytgb"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="25dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/ig"
+        android:background="@drawable/yt"/>
+
+
+</RelativeLayout>
+</ScrollView>
