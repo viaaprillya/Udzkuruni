@@ -11,7 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".Tentang"></activity>
+        <activity android:name=".KuisSkorActivity"></activity>
+        <activity android:name=".Tentang" />
         <activity android:name=".panduanBelajar" />
         <activity android:name=".Fathahtain" />
         <activity android:name=".Huruf_Fathah" />
