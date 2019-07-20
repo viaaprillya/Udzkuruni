@@ -27,10 +27,50 @@ public class Kuis extends AppCompatActivity {
     String[][] soal_2 = {{"alif_pg","ba_pg","ta_pg"}, // nama file gambar soal
             {"Alif","Ba", "Ta"}, // content description soal
             {"satux","duax","tiga","empat","lima","enam"}, // nama file gambar braille
-            {"1","1","","","",""}, // content description gambar braille
+            {"1","2","","","",""}, // content description gambar braille
             {"Ba"}}; // Jawaban
+    String[][] soal_3= {{"ba_pg","jim_pg","ta_pg"}, // nama file gambar soal
+            {"Ba","Jim", "Ta"}, // content description soal
+            {"satu","duax","tigax","empatx","limax","enam"}, // nama file gambar braille
+            {"","2","3","4","5",""}, // content description gambar braille
+            {"Ta"}}; // Jawaban
+    String[][] soal_4 = {{"kha_pg","jim_pg","tsa_pg"}, // nama file gambar soal
+            {"Kha","Jim", "Tsa"}, // content description soal
+            {"satux","dua","tiga","empatx","limax","enamx"}, // nama file gambar braille
+            {"1","","","4","5","6"}, // content description gambar braille
+            {"Tsa"}}; // Jawaban
+    String[][] soal_5 = {{"ain_pg","jim_pg","ya_pg"}, // nama file gambar soal
+            {"Ain","Jim", "Ya"}, // content description soal
+            {"satu","duax","tiga","empatx","limax","enam"}, // nama file gambar braille
+            {"","2","","4","5",""}, // content description gambar braille
+            {"Jim"}}; // Jawaban
+    String[][] soal_6 = {{"ba_pg","kha_pg","ta_pg"}, // nama file gambar soal
+            {"Ba","Kha", "Ta"}, // content description soal
+            {"satux","dua","tiga","empat","limax","enamx"}, // nama file gambar braille
+            {"1","","","","5","6"}, // content description gambar braille
+            {"Kha"}}; // Jawaban
+    String[][] soal_7 = {{"kha_pg","jim_pg","kho_pg"}, // nama file gambar soal
+            {"Kha","Jim","Kho"}, // content description soal
+            {"satux","dua","tigax","empatx","lima","enamx"}, // nama file gambar braille
+            {"1","","3","4","","6"}, // content description gambar braille
+            {"Kho"}}; // Jawaban
+    String[][] soal_8 = {{"dal_pg","jim_pg","tsa_pg"}, // nama file gambar soal
+            {"Dal","Jim", "Tsa"}, // content description soal
+            {"satux","dua","tiga","empatx","limax","enam"}, // nama file gambar braille
+            {"1","","","4","5",""}, // content description gambar braille
+            {"Dal"}}; // Jawaban
+    String[][] soal_9 = {{"za_pg","dza_pg","kha_pg"}, // nama file gambar soal
+            {"Za","Dzal", "Kha"}, // content description soal
+            {"satu","duax","tigax","empatx","lima","enamx"}, // nama file gambar braille
+            {"","2","3","4","","6"}, // content description gambar braille
+            {"Dzal"}}; // Jawaban
+    String[][] soal_10 = {{"za_pg","ro_pg","sin_pg"}, // nama file gambar soal
+            {"Za","Ro", "Sin"}, // content description soal
+            {"satux","duax","tigax","empat","limax","enam"}, // nama file gambar braille
+            {"1","2","3","","5",""}, // content description gambar braille
+            {"Ro"}}; // Jawaban
 
-    String[][][] kunci = {soal_1, soal_2 };
+    String[][][] kunci = {soal_1, soal_2,soal_3,soal_4,soal_5,soal_6,soal_7,soal_8,soal_9,soal_10};
 
     ImageButton pilhan1, pilhan2,pilhan3;
     ImageView satu, dua, tiga, empat, lima, enam;
