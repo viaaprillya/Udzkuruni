@@ -1,12 +1,10 @@
 package com.kelompok.udzkuruni;
 
 import android.content.Intent;
-import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -43,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         quranBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent Quran = new Intent(getApplicationContext(),Quran.class);
+                Intent Quran = new Intent(getApplicationContext(), com.kelompok.udzkuruni.quran.Quran.class);
                 startActivity(Quran);
             }
         });

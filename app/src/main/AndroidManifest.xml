@@ -11,13 +11,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".KuisSkorActivity"></activity>
+        <activity android:name=".quran.ListVerseActivity"></activity>
+        <activity android:name=".quran.ListSurahActivity" />
+        <activity android:name=".KuisSkorActivity" />
         <activity android:name=".Tentang" />
         <activity android:name=".panduanBelajar" />
         <activity android:name=".Fathahtain" />
         <activity android:name=".Huruf_Fathah" />
         <activity android:name=".Dommah" />
-        <activity android:name=".Quran" />
+        <activity android:name=".quran.Quran" />
         <activity android:name=".Kuis" />
         <activity android:name=".Kasrah" />
         <activity android:name=".Fathah" />
